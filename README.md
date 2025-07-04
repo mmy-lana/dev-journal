@@ -8,6 +8,13 @@ This repository contains development work logs for various bug fixes and feature
 
 Here's an overview of key tasks and their resolutions as of July 2025:
 
+### Q1 2025 (January - March)
+
+* **[#BUGS25-25] - Penyelesaian temuan VA - Inhouse KLN (February 19 - March 05)**
+    * **Summary:** Addressed findings from a Vulnerability Assessment (VA) related to the Inhouse KLN system.
+* **[#BUGS25-76] - Perbaikan Validasi Entitas Pembeli Dok BC 3.0 (March 25 - April 02)**
+    * **Summary:** Corrected validation issues for buyer entities in BC 3.0 documents within the Portal application.
+
 ### Q2 2025 (April - June)
 
 * **[#BUGS25-248] - Peyesuaian Filter Kode Gudang (April 21 - 28)**
