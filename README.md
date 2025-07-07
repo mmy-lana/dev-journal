@@ -7,8 +7,10 @@ This repository contains development work logs for various bug fixes and feature
 ## ✅ 2025 Work Log Highlights
 
 Here's an overview of key tasks and their resolutions as of July 2025:
+**Total Tickets Finished: 16**
 
 ### Q1 2025 (January - March)
+**Tickets: 5**
 
 * **[#BUGS25-25] - Penyelesaian temuan VA - Inhouse KLN (February 19 - March 05)**
     * **Summary:** Addressed findings from a Vulnerability Assessment (VA) related to the Inhouse KLN system.
@@ -22,6 +24,7 @@ Here's an overview of key tasks and their resolutions as of July 2025:
     * **Summary:** Completed a task related to an unspecified bug or feature.
 
 ### Q2 2025 (April - June)
+**Tickets: 11**
 
 * **[#BUGS25-205] - (Details to be added) (April 11 - April 26)**
     * **Summary:** Completed a task related to an unspecified bug or feature.
@@ -39,6 +42,8 @@ Here's an overview of key tasks and their resolutions as of July 2025:
     * **Summary:** Eliminated the default date range filter when opening the "Edit Penutupan Pos" menu in the Inhouse Manifest, providing users with a clear and empty input for manual date selection.
 * **[#BUGS25-435] - (Details to be added) (May 28 - June 21)**
     * **Summary:** Completed a task related to an unspecified bug or feature.
+* **[#BUGS25-529] - Perbaikan endpoint /update-token pada setting-aplikasi (June 19 - July 05)**
+    * **Summary:** Corrected the `/update-token` endpoint within the setting application from `amws` to `authws` and updated its version to `v3` to ensure proper token management.
 * **[#BUGS25-535] - Konfirmasi BC 1.1 Dokumen Pabean (June 20 - July 03)**
     * **Summary:** Implemented confirmation mechanisms for BC 1.1 status (found or already used) in the customs document module. This involved handling date format conversions from the API, mapping `kodeTps` to `kodeGudang`, and adding robust error management for clearer user feedback.
 * **[#BUGS25-573] - (Details to be added) (June 30 - July 01)**
