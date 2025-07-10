@@ -23,6 +23,11 @@ Here's an overview of key tasks and their resolutions as of July 2025:
 * **[#BUGS25-535] - Konfirmasi BC 1.1 Dokumen Pabean (June 20 - July 03)**
     * **Summary:** Implemented confirmation mechanisms for BC 1.1 status (found or already used) in the customs document module. This involved handling date format conversions from the API, mapping `kodeTps` to `kodeGudang`, and adding robust error management for clearer user feedback.
 
+### Q3 2025 (July - September)
+
+* **[#BUGS25-630] - Perbaikan Format Tanggal Perekaman LHP (July 08 - 10)**
+    * **Summary:** Updated the timestamp display format for "Tgl Perekaman LHP" in the "Hasil Pemeriksaan LHP" menu from 12-hour to 24-hour format (`hh` ➝ `HH`) to improve clarity and alignment with standard practices in CEISA systems.
+
 ---
 
 ## 🔍 How to Navigate
