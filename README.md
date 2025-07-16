@@ -7,7 +7,7 @@ This repository contains development work logs for various bug fixes and feature
 ## ✅ 2025 Work Log Highlights
 
 Here's an overview of key tasks and their resolutions as of July 2025:
-**Total Tickets Finished: 16**
+**Total Tickets Finished: 18**
 
 ### Q1 2025 (January - March)
 **Tickets: 5**
@@ -49,10 +49,16 @@ Here's an overview of key tasks and their resolutions as of July 2025:
 * **[#BUGS25-573] - (Details to be added) (June 30 - July 01)**
     * **Summary:** Completed a task related to an unspecified bug or feature.
 
-### Q3 2025 (July - September)
 
-* **[#BUGS25-630] - Perbaikan Format Tanggal Perekaman LHP (July 08 - 10)**
-    * **Summary:** Updated the timestamp display format for "Tgl Perekaman LHP" in the "Hasil Pemeriksaan LHP" menu from 12-hour to 24-hour format (`hh` ➝ `HH`) to improve clarity and alignment with standard practices in CEISA systems.
+### Q3 2025 (July - September)
+**Tickets: 2**
+
+* **[#BUGS25-620] - Penambahan fitur tombol Kirim Ulang Faktur Pajak (July 08 - 11)**
+    * **Summary:** Implemented a new feature allowing users to resend tax invoices with an option to select between PIB and SPTNP document types. The fix also included improvements to error messaging and usage of environment variables for API calls.
+
+* **[#BUGS25-642] - Perbaikan Medium Security Hotspots (July 08 - 15)**
+    * **Summary:** Resolved three medium security hotspots flagged by SonarQube involving weak pseudorandom number generation. Enhanced cryptographic safety in the Pemeriksaan Barang module by replacing insecure logic with secure alternatives.
+
 
 ---
 
@@ -66,5 +72,3 @@ Each journal entry is detailed in its respective Markdown file, often named afte
 * The results of the fix.
 * A list of affected files and technologies used.
 * Personal reflections on the task.
-
-Feel free to explore the individual entries for more in-depth information on each resolved issue or enhancement.
